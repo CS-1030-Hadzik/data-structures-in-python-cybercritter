@@ -56,6 +56,6 @@ my_array_length = len(cars)
 # 'The length of my array is ' (spelling, capitalization, and spaces matter)`
 array_string = 'The length of my array is '
 
-# problem 18. print array_string concatenated with my_array_
-# length to the console.
+# problem 18. print array_string concatenated with my_array_length to
+# the console.
 print(array_string + str(my_array_length))
