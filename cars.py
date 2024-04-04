@@ -2,8 +2,9 @@
 # problem 1. print your first and last name
 print("Michael Reid")
 
-# problem 2. In the array.py create an array named 'cars' with the following elements \
-# in this order  ---- Ford,Chrysler,Dodge,Ram,Jeep,Chevy,GMC`
+# problem 2. In the array.py create an array named 'cars' with the f
+# following elements in this order
+# ---- 'Ford,Chrysler,Dodge,Ram,Jeep,Chevy,GMC`
 # (use single quotes for each element)EX: 'Ford' not "Ford" spelling matters
 
 cars = ['Ford', 'Chrysler', 'Dodge', 'Ram', 'Jeep', 'Chevy', 'GMC']
@@ -24,7 +25,7 @@ print(cars)
 print(cars[3])
 
 # problem 8. Insert 'Toyota' into element 3 in the array`
-cars[2] = 'Toyota'
+cars.insert(2, 'Toyota')
 
 # problem 9. print the array to the console`
 print(cars)
@@ -48,11 +49,11 @@ cars.sort(reverse=True)
 print(cars)
 
 # problem 16. create a variable called my_array_length with a value
-# of the cars array length (spelling, capitilization, and spaces matter)`
+# of the cars array length (spelling, capitalization, and spaces matter)`
 my_array_length = len(cars)
 
 # problem 17. create a variable called array_string with a value of
-# 'The length of my array is ' (spelling, capitilization, and spaces matter)`
+# 'The length of my array is ' (spelling, capitalization, and spaces matter)`
 array_string = 'The length of my array is '
 
 # problem 18. print array_string concatenated with my_array_
